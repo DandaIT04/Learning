@@ -1,6 +1,3 @@
-# create a linked list where the values are s->u->s->None
-# Then print the linked list
-
 class Node:
     def __init__(self,data):
         self.data = data
