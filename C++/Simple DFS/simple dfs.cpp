@@ -52,31 +52,17 @@ int main(){
     }
     
     storeCombinations[0].push_back(1);
-    storeCombinations[1].push_back(0);
-    storeCombinations[0].push_back(2);
-    storeCombinations[2].push_back(0);
     storeCombinations[1].push_back(3);
-    storeCombinations[3].push_back(1);    
-    storeCombinations[2].push_back(9);
-    storeCombinations[9].push_back(2);
     storeCombinations[1].push_back(5);
-    storeCombinations[5].push_back(1);
-    storeCombinations[2].push_back(5);
-    storeCombinations[5].push_back(2);    
-    storeCombinations[9].push_back(7);
-    storeCombinations[7].push_back(9);
-    storeCombinations[5].push_back(7);
-    storeCombinations[7].push_back(5);
     storeCombinations[5].push_back(6);
-    storeCombinations[6].push_back(5);
-    storeCombinations[7].push_back(6);
-    storeCombinations[6].push_back(7);
-    storeCombinations[5].push_back(4);
-    storeCombinations[4].push_back(5);
     storeCombinations[6].push_back(4);
-    storeCombinations[4].push_back(6);
     storeCombinations[4].push_back(8);
-    storeCombinations[8].push_back(4);  
+    storeCombinations[6].push_back(7);
+    storeCombinations[7].push_back(5);
+    storeCombinations[7].push_back(9);
+    storeCombinations[9].push_back(2);
+    storeCombinations[2].push_back(5);
+    storeCombinations[2].push_back(0);
     
     performDFS(storeCombinations,numberOfNodes,visitedNode);
     
